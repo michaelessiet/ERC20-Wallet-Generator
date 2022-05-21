@@ -17,10 +17,9 @@ export function checkValidity(mnemonic: string) {
 
 export async function checkBalance(mnemonic: string) {
   const provider = new ethers.providers.WebSocketProvider(
-    "wss://mainnet.infura.io/ws/v3/8198b294efed4ab89a84c76772652b21"
+    //put your own provider here
   );
   const wallet = ethers.Wallet.fromMnemonic(mnemonic);
-  const balance =await  provider.getBalance(wallet.address);
+  const balance = await provider.getBalance(wallet.address);
   return balance;
 }
-
