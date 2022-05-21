@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.shogun2077.Walletbruteforce"
     },
     "web": {
       "favicon": "./assets/favicon.png"
